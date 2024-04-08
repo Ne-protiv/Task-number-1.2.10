@@ -12,9 +12,10 @@ public class Task {
         boolean result = doubleExpression(a, b, c);
         System.out.println(result);
     }
+
     public static boolean doubleExpression(Double a, Double b, Double c) {
         final double EPSILON = 1E-4;
-        return -EPSILON < a + b - c && a + b - c  < EPSILON;
+        return -EPSILON < a + b - c && a + b - c < EPSILON;
 
     }
 }
